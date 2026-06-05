@@ -9,7 +9,7 @@ LightGBM-based fraud detection model on the [IEEE-CIS Fraud Detection](https://w
 
 ## About this project
 
-This notebook works through the IEEE-CIS competition with an emphasis on data analyst reasoning alongside modelling performance. Each modelling iteration closes with a short *Findings* markdown cell explaining what changed, what improved, and what trade-offs were accepted — including honest reporting of null results, principled methodological choices (e.g., choosing semantically correct categorical handling despite a small AUC concession), and a quantified selection-bias diagnostic at the end.
+This notebook works through the IEEE-CIS competition with an emphasis on data analyst reasoning alongside modelling performance. Each modelling iteration closes with a short *Findings* markdown cell explaining what changed, what improved, and what trade-offs were accepted — including reporting of null results, methodological choices (e.g., choosing semantically correct categorical handling despite a small AUC regression), and a quantified selection-bias diagnostic at the end.
 
 ## Approach
 
