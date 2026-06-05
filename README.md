@@ -54,17 +54,9 @@ datasets/
 
 **3. Open `detection_model.ipynb` and run all cells.** A full top-to-bottom run takes approximately 15–20 minutes on a modern laptop, dominated by the 50-trial Optuna hyperparameter search.
 
-## Key sections to look at
-
-If you only have a few minutes:
-
-- **Opening cell** — problem framing and headline result
-- **Findings cells** — each modelling iteration closes with a short *Findings* cell summarising what changed and why; these are the analytical core of the notebook
-- **Final Kaggle findings** — closing discussion of the local validation → local test → Kaggle private calibration story and the roughly 3pp HPO selection-bias gap quantified directly
-
 ## What's next
 
-This notebook documents one complete modelling iteration. Natural next directions:
+This notebook documents one complete modelling iteration. Some next steps as to how I can improve this model are:
 
 - UID-style aggregation features (constructing actor-level behavioural baselines from probable user identifiers)
 - Threshold / precision-recall analysis for production operating-point selection
