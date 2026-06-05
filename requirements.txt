@@ -1,0 +1,8 @@
+pandas==3.0.3
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.9
+lightgbm==4.6.0
+optuna==4.8.0
+ipykernel==7.2.0
+notebook

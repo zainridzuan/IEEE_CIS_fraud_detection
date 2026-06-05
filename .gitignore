@@ -1,0 +1,38 @@
+# IEEE-CIS dataset (download from Kaggle — see README)
+datasets/
+
+# Kaggle submission outputs
+submission*.csv
+
+# Saved model artifacts
+*.pkl
+*.joblib
+*.lgb
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Optuna persistent storage (if used later)
+*.db
+
+# IDE configuration
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
